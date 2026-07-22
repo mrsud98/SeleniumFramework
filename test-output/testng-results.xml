@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="17" passed="14" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-22T23:17:35 IST" name="LoginSuite" finished-at="2026-07-22T23:22:06 IST" duration-ms="271213">
+    <groups>
+      <group name="regression">
+        <method signature="DashboardTest.DASH_TC_01_verifyServerStatusDisplayed()[pri:1, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_01_verifyServerStatusDisplayed" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_02_verifyLogInfoDisplayed()[pri:2, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_02_verifyLogInfoDisplayed" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_03_verifyLiveSessionDisplayed()[pri:3, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_03_verifyLiveSessionDisplayed" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_04_verifySessionProgressBar()[pri:4, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_04_verifySessionProgressBar" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_05_verifyLiveSessionRefresh()[pri:5, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_05_verifyLiveSessionRefresh" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_06_verifySearchUser()[pri:6, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_06_verifySearchUser" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_07_verifySortFunctionality()[pri:7, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_07_verifySortFunctionality" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_08_verifyLoginTrend12HDefault()[pri:8, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_08_verifyLoginTrend12HDefault" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_09_verifyLoginTrend24HFilter()[pri:9, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_09_verifyLoginTrend24HFilter" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_10_verifyLoginTrendRefresh()[pri:10, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_10_verifyLoginTrendRefresh" class="com.iasys.dashboardTest.DashboardTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="DashboardTest.DASH_TC_01_verifyServerStatusDisplayed()[pri:1, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_01_verifyServerStatusDisplayed" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_02_verifyLogInfoDisplayed()[pri:2, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_02_verifyLogInfoDisplayed" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_03_verifyLiveSessionDisplayed()[pri:3, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_03_verifyLiveSessionDisplayed" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_08_verifyLoginTrend12HDefault()[pri:8, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_08_verifyLoginTrend12HDefault" class="com.iasys.dashboardTest.DashboardTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="DashboardTest.DASH_TC_01_verifyServerStatusDisplayed()[pri:1, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_01_verifyServerStatusDisplayed" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_02_verifyLogInfoDisplayed()[pri:2, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_02_verifyLogInfoDisplayed" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_03_verifyLiveSessionDisplayed()[pri:3, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_03_verifyLiveSessionDisplayed" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_04_verifySessionProgressBar()[pri:4, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_04_verifySessionProgressBar" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_06_verifySearchUser()[pri:6, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_06_verifySearchUser" class="com.iasys.dashboardTest.DashboardTest"/>
+        <method signature="DashboardTest.DASH_TC_08_verifyLoginTrend12HDefault()[pri:8, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" name="DASH_TC_08_verifyLoginTrend12HDefault" class="com.iasys.dashboardTest.DashboardTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-07-22T23:17:35 IST" name="LoginTestSuite" finished-at="2026-07-22T23:22:06 IST" duration-ms="271213">
+      <class name="com.iasys.dashboardTest.DashboardTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:18:53 IST" name="setUp" finished-at="2026-07-22T23:19:22 IST" duration-ms="29251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:18:56 IST" name="setUp" finished-at="2026-07-22T23:19:35 IST" duration-ms="38917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:18:58 IST" name="setUp" finished-at="2026-07-22T23:19:55 IST" duration-ms="56983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:18:59 IST" name="setUp" finished-at="2026-07-22T23:19:43 IST" duration-ms="44329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:19:13 IST" name="setUp" finished-at="2026-07-22T23:20:02 IST" duration-ms="48615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="TC_01_verifyValidLogin()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:19:22 IST" name="TC_01_verifyValidLogin" finished-at="2026-07-22T23:19:43 IST" duration-ms="21213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyValidLogin -->
+        <test-method is-config="true" signature="TC_01_verifyValidLogin()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:19:35 IST" name="TC_01_verifyValidLogin" finished-at="2026-07-22T23:20:11 IST" duration-ms="36010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyValidLogin -->
+        <test-method is-config="true" signature="TC_01_verifyValidLogin()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:19:43 IST" name="TC_01_verifyValidLogin" finished-at="2026-07-22T23:20:05 IST" duration-ms="21384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyValidLogin -->
+        <test-method signature="DASH_TC_01_verifyServerStatusDisplayed()[pri:1, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:19:43 IST" name="DASH_TC_01_verifyServerStatusDisplayed" description="DASH_TC_01 Verify server status section is displayed with CPU, Memory and Hard Disk" finished-at="2026-07-22T23:19:46 IST" duration-ms="2088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DASH_TC_01_verifyServerStatusDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:19:46 IST" name="tearDown" finished-at="2026-07-22T23:19:46 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:19:46 IST" name="setUp" finished-at="2026-07-22T23:20:27 IST" duration-ms="41228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:19:46 IST" name="setUp" finished-at="2026-07-22T23:20:32 IST" duration-ms="46027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="TC_01_verifyValidLogin()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:19:55 IST" name="TC_01_verifyValidLogin" finished-at="2026-07-22T23:20:14 IST" duration-ms="18650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyValidLogin -->
+        <test-method is-config="true" signature="TC_01_verifyValidLogin()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:02 IST" name="TC_01_verifyValidLogin" finished-at="2026-07-22T23:20:20 IST" duration-ms="17770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyValidLogin -->
+        <test-method signature="DASH_TC_04_verifySessionProgressBar()[pri:4, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:05 IST" name="DASH_TC_04_verifySessionProgressBar" description="DASH_TC_04 Verify session progress bar and count are displayed" finished-at="2026-07-22T23:20:06 IST" duration-ms="1580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DASH_TC_04_verifySessionProgressBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:06 IST" name="tearDown" finished-at="2026-07-22T23:20:07 IST" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:07 IST" name="setUp" finished-at="2026-07-22T23:20:44 IST" duration-ms="36929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DASH_TC_02_verifyLogInfoDisplayed()[pri:2, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:11 IST" name="DASH_TC_02_verifyLogInfoDisplayed" description="DASH_TC_02 Verify log info section is displayed with correct fields" finished-at="2026-07-22T23:20:12 IST" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DASH_TC_02_verifyLogInfoDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:12 IST" name="tearDown" finished-at="2026-07-22T23:20:13 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:13 IST" name="setUp" finished-at="2026-07-22T23:20:50 IST" duration-ms="36648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DASH_TC_03_verifyLiveSessionDisplayed()[pri:3, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:14 IST" name="DASH_TC_03_verifyLiveSessionDisplayed" description="DASH_TC_03 Verify live session table is displayed with active sessions" finished-at="2026-07-22T23:20:17 IST" duration-ms="3534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DASH_TC_03_verifyLiveSessionDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:17 IST" name="tearDown" finished-at="2026-07-22T23:20:18 IST" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:18 IST" name="setUp" finished-at="2026-07-22T23:20:55 IST" duration-ms="36585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DASH_TC_05_verifyLiveSessionRefresh()[pri:5, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:20 IST" name="DASH_TC_05_verifyLiveSessionRefresh" description="DASH_TC_05 Verify live session refresh button updates the data" finished-at="2026-07-22T23:20:22 IST" duration-ms="1786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DASH_TC_05_verifyLiveSessionRefresh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:22 IST" name="tearDown" finished-at="2026-07-22T23:20:22 IST" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="TC_01_verifyValidLogin()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:27 IST" name="TC_01_verifyValidLogin" finished-at="2026-07-22T23:20:49 IST" duration-ms="21984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyValidLogin -->
+        <test-method is-config="true" signature="TC_01_verifyValidLogin()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:32 IST" name="TC_01_verifyValidLogin" finished-at="2026-07-22T23:22:05 IST" duration-ms="92193" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.iasys.dashboardTest.DashboardTest.TC_01_verifyValidLogin(DashboardTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyValidLogin -->
+        <test-method is-config="true" signature="TC_01_verifyValidLogin()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:44 IST" name="TC_01_verifyValidLogin" finished-at="2026-07-22T23:20:56 IST" duration-ms="11724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyValidLogin -->
+        <test-method signature="DASH_TC_06_verifySearchUser()[pri:6, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:49 IST" name="DASH_TC_06_verifySearchUser" description="DASH_TC_06 Verify search user filters live session results" finished-at="2026-07-22T23:20:52 IST" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DASH_TC_06_verifySearchUser -->
+        <test-method is-config="true" signature="TC_01_verifyValidLogin()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:50 IST" name="TC_01_verifyValidLogin" finished-at="2026-07-22T23:21:00 IST" duration-ms="10282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:52 IST" name="tearDown" finished-at="2026-07-22T23:20:53 IST" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="TC_01_verifyValidLogin()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:55 IST" name="TC_01_verifyValidLogin" finished-at="2026-07-22T23:21:04 IST" duration-ms="9145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyValidLogin -->
+        <test-method signature="DASH_TC_08_verifyLoginTrend12HDefault()[pri:8, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:56 IST" name="DASH_TC_08_verifyLoginTrend12HDefault" description="DASH_TC_08 Verify login trend chart is displayed with 12H filter by default" finished-at="2026-07-22T23:20:58 IST" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DASH_TC_08_verifyLoginTrend12HDefault -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:20:58 IST" name="tearDown" finished-at="2026-07-22T23:20:59 IST" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="DASH_TC_09_verifyLoginTrend24HFilter()[pri:9, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:21:00 IST" name="DASH_TC_09_verifyLoginTrend24HFilter" description="DASH_TC_09 Verify login trend chart updates when 24H filter is applied" finished-at="2026-07-22T23:21:01 IST" duration-ms="1455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DASH_TC_09_verifyLoginTrend24HFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:21:01 IST" name="tearDown" finished-at="2026-07-22T23:21:02 IST" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="DASH_TC_10_verifyLoginTrendRefresh()[pri:10, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:21:04 IST" name="DASH_TC_10_verifyLoginTrendRefresh" description="DASH_TC_10 Verify login trend refresh button updates the chart" finished-at="2026-07-22T23:21:05 IST" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DASH_TC_10_verifyLoginTrendRefresh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:21:05 IST" name="tearDown" finished-at="2026-07-22T23:21:06 IST" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="DASH_TC_07_verifySortFunctionality()[pri:7, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:22:05 IST" name="DASH_TC_07_verifySortFunctionality" description="DASH_TC_07 Verify sort functionality on live session table" finished-at="2026-07-22T23:22:05 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.iasys.dashboardTest.DashboardTest.TC_01_verifyValidLogin(DashboardTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DASH_TC_07_verifySortFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.dashboardTest.DashboardTest@64bce832]" started-at="2026-07-22T23:22:05 IST" name="tearDown" finished-at="2026-07-22T23:22:06 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.iasys.dashboardTest.DashboardTest -->
+      <class name="com.iasys.loginTest.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:17:35 IST" name="setUp" finished-at="2026-07-22T23:18:48 IST" duration-ms="73081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:17:35 IST" name="setUp" finished-at="2026-07-22T23:18:52 IST" duration-ms="77897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:17:35 IST" name="setUp" finished-at="2026-07-22T23:18:53 IST" duration-ms="78902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:17:35 IST" name="setUp" finished-at="2026-07-22T23:18:51 IST" duration-ms="76267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:17:35 IST" name="setUp" finished-at="2026-07-22T23:18:54 IST" duration-ms="78937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:17:35 IST" name="setUp" finished-at="2026-07-22T23:18:57 IST" duration-ms="81861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_03_invalidUsername()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:48 IST" name="TC_03_invalidUsername" finished-at="2026-07-22T23:18:54 IST" duration-ms="5913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_invalidUsername -->
+        <test-method signature="TC_06_usernameMandatory()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:51 IST" name="TC_06_usernameMandatory" finished-at="2026-07-22T23:18:52 IST" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_usernameMandatory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:52 IST" name="tearDown" finished-at="2026-07-22T23:18:53 IST" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method retried="true" signature="TC_01_verifyLoginPageLoads()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:52 IST" name="TC_01_verifyLoginPageLoads" finished-at="2026-07-22T23:18:53 IST" duration-ms="683" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login page logo should be visible on page load expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login page logo should be visible on page load expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.iasys.loginTest.LoginTest.TC_01_verifyLoginPageLoads(LoginTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyLoginPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:53 IST" name="tearDown" finished-at="2026-07-22T23:18:56 IST" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TC_04_invalidPassword()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:53 IST" name="TC_04_invalidPassword" finished-at="2026-07-22T23:18:56 IST" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_invalidPassword -->
+        <test-method signature="TC_01_verifyValidLogin()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:54 IST" name="TC_01_verifyValidLogin" finished-at="2026-07-22T23:19:13 IST" duration-ms="19110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:54 IST" name="tearDown" finished-at="2026-07-22T23:18:56 IST" duration-ms="2294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:56 IST" name="setUp" finished-at="2026-07-22T23:19:44 IST" duration-ms="48373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:56 IST" name="tearDown" finished-at="2026-07-22T23:18:58 IST" duration-ms="2127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="dataLogin(java.lang.String,java.lang.String)[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:57 IST" name="dataLogin" data-provider="loginData" finished-at="2026-07-22T23:18:58 IST" duration-ms="1052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kavita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:18:58 IST" name="tearDown" finished-at="2026-07-22T23:18:59 IST" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:19:13 IST" name="tearDown" finished-at="2026-07-22T23:19:13 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TC_01_verifyLoginPageLoads()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:19:44 IST" name="TC_01_verifyLoginPageLoads" finished-at="2026-07-22T23:19:45 IST" duration-ms="550" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login page logo should be visible on page load expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login page logo should be visible on page load expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.iasys.loginTest.LoginTest.TC_01_verifyLoginPageLoads(LoginTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_verifyLoginPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iasys.loginTest.LoginTest@363a52f]" started-at="2026-07-22T23:19:45 IST" name="tearDown" finished-at="2026-07-22T23:19:46 IST" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.iasys.loginTest.LoginTest -->
+    </test> <!-- LoginTestSuite -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
