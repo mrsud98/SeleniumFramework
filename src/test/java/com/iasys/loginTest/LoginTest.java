@@ -30,7 +30,7 @@ public class LoginTest extends BaseTest {
 		logger.info("Starting TC_01_verifyLoginPageLoads");
 		LoginPage loginPage = new LoginPage();
 
-		Assert.assertFalse(loginPage.isLogoDisplayed(), "Login page logo should be visible on page load");
+		Assert.assertTrue(loginPage.isLogoDisplayed(), "Login page logo should be visible on page load");
 
 		logger.info("TC_01 PASSED");
 	}
