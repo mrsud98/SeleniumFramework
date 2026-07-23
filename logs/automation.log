@@ -2438,3 +2438,126 @@ Session ID: 2e9afcb2bdad83b4500c7bbe141b831d
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:842)
+14:31:35.439 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:31:37.207 [main] INFO  Navigated to Dashboard for test.
+14:31:37.559 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:31:37.991 [main] INFO  Thread: main | Clicking By.xpath: //*[@data-testid='id_admin_toolbar_admindashboard']
+14:31:37.993 [main] INFO  Navigated to Dashboard.
+14:31:38.102 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:31:38.102 [main] INFO  Starting DASH_TC_01_verifyServerStatusDisplayed
+14:31:38.102 [main] INFO  Verifying Server Status section.
+14:31:38.310 [main] INFO  CPU: 1% | Memory: 59% | Hard Disk: 57%
+14:31:38.310 [main] INFO  DASH_TC_01_verifyServerStatusDisplayed PASSED
+14:31:43.431 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:31:44.555 [main] INFO  Starting DASH_TC_02_verifyLogInfoDisplayed
+14:31:45.110 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:31:45.559 [main] INFO  Thread: main | Clicking By.xpath: //*[@data-testid='id_admin_toolbar_admindashboard']
+14:31:45.559 [main] INFO  Navigated to Dashboard.
+14:31:46.388 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:31:46.388 [main] INFO  Verifying Log Info section.
+14:31:46.476 [main] INFO  DASH_TC_02_verifyLogInfoDisplayed PASSED
+14:31:51.509 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:31:52.714 [main] INFO  Starting DASH_TC_03_verifyLiveSessionDisplayed
+14:31:53.259 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:31:53.675 [main] INFO  Thread: main | Clicking By.xpath: //*[@data-testid='id_admin_toolbar_admindashboard']
+14:31:53.675 [main] INFO  Navigated to Dashboard.
+14:31:54.476 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:31:54.476 [main] INFO  Verifying Live Session section.
+14:31:54.636 [main] INFO  DASH_TC_03_verifyLiveSessionDisplayed PASSED
+14:31:59.758 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:32:01.001 [main] INFO  Starting DASH_TC_04_verifySessionProgressBar
+14:32:01.513 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:01.954 [main] INFO  Thread: main | Clicking By.xpath: //*[@data-testid='id_admin_toolbar_admindashboard']
+14:32:01.954 [main] INFO  Navigated to Dashboard.
+14:32:02.731 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:02.753 [main] INFO  DASH_TC_04_verifySessionProgressBar PASSED
+14:32:07.747 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:32:09.455 [main] INFO  Starting DASH_TC_05_verifyLiveSessionRefresh
+14:32:09.687 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:10.133 [main] INFO  Thread: main | Clicking By.xpath: //*[@data-testid='id_admin_toolbar_admindashboard']
+14:32:10.137 [main] INFO  Navigated to Dashboard.
+14:32:11.023 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:11.103 [main] INFO  Thread: main | Clicking By.xpath: //*[@id='liveSessionRefresh']
+14:32:11.103 [main] INFO  Refreshed live session data.
+14:32:11.103 [main] INFO  Verifying Live Session section.
+14:32:11.823 [main] INFO  DASH_TC_05_verifyLiveSessionRefresh PASSED
+14:32:16.940 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:32:18.665 [main] INFO  Starting DASH_TC_06_verifySearchUser
+14:32:19.032 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:19.549 [main] INFO  Thread: main | Clicking By.xpath: //*[@data-testid='id_admin_toolbar_admindashboard']
+14:32:19.549 [main] INFO  Navigated to Dashboard.
+14:32:20.324 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:20.474 [main] INFO  Searched for user: admin
+14:32:20.474 [main] INFO  Verifying Live Session section.
+14:32:20.547 [main] INFO  Search for 'admin' completed successfully.
+14:32:20.547 [main] INFO  DASH_TC_06_verifySearchUser PASSED
+14:32:25.428 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:32:26.517 [main] INFO  Starting DASH_TC_07_verifySortFunctionality
+14:32:26.990 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:27.616 [main] INFO  Thread: main | Clicking By.xpath: //*[@data-testid='id_admin_toolbar_admindashboard']
+14:32:27.616 [main] INFO  Navigated to Dashboard.
+14:32:28.381 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:28.507 [main] INFO  Thread: main | Clicking By.xpath: //span[normalize-space()='User Name']
+14:32:28.507 [main] INFO  Sorted live session by username.
+14:32:28.696 [main] INFO  DASH_TC_07_verifySortFunctionality PASSED
+14:32:33.841 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:32:34.985 [main] INFO  Starting DASH_TC_08_verifyLoginTrend12HDefault
+14:32:35.439 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:35.843 [main] INFO  Thread: main | Clicking By.xpath: //*[@data-testid='id_admin_toolbar_admindashboard']
+14:32:35.843 [main] INFO  Navigated to Dashboard.
+14:32:36.591 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:36.591 [main] INFO  Verifying Users Login Trend section.
+14:32:36.627 [main] INFO  DASH_TC_08_verifyLoginTrend12HDefault PASSED
+14:32:41.593 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:32:42.798 [main] INFO  Starting DASH_TC_09_verifyLoginTrend24HFilter
+14:32:43.363 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:43.797 [main] INFO  Thread: main | Clicking By.xpath: //*[@data-testid='id_admin_toolbar_admindashboard']
+14:32:43.797 [main] INFO  Navigated to Dashboard.
+14:32:44.560 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:44.634 [main] INFO  Thread: main | Clicking By.xpath: //*[normalize-space()='24 H']
+14:32:44.634 [main] INFO  Applied 24H filter on login trend.
+14:32:44.656 [main] INFO  DASH_TC_09_verifyLoginTrend24HFilter PASSED
+14:32:49.604 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:32:51.244 [main] INFO  Starting DASH_TC_10_verifyLoginTrendRefresh
+14:32:51.713 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:52.167 [main] INFO  Thread: main | Clicking By.xpath: //*[@data-testid='id_admin_toolbar_admindashboard']
+14:32:52.167 [main] INFO  Navigated to Dashboard.
+14:32:52.928 [main] INFO  Thread: main | Clicking By.xpath: //a[@id='administrator']
+14:32:53.005 [main] INFO  Thread: main | Clicking By.xpath: //*[@data-testid='id_admin_dashboard_user_login_refresh_btn']
+14:32:53.005 [main] INFO  Refreshed login trend chart.
+14:32:53.005 [main] INFO  Verifying Users Login Trend section.
+14:32:53.042 [main] INFO  DASH_TC_10_verifyLoginTrendRefresh PASSED
+14:32:58.088 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:32:59.229 [main] INFO  Login success
+14:32:59.229 [main] INFO  Test start
+14:32:59.653 [main] INFO  Thread: main | Clicking By.cssSelector: a[id='testdvp']
+14:33:00.088 [main] INFO  Thread: main | Clicking By.cssSelector: .test-dvp-create-btn.gap-1
+14:33:00.665 [main] INFO  Test success
+14:33:12.969 [main] INFO  Starting TC_01_verifyLoginPageLoads
+14:33:19.313 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:33:26.206 [main] INFO  Starting TC_03_invalidUsername
+14:33:27.339 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:33:27.914 [main] INFO  TC_03 PASSED 
+14:33:32.253 [main] INFO  Starting TC_04_invalidPassword â€? {}
+14:33:33.346 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:33:33.927 [main] INFO  TC_04 PASSED â€? {}
+14:33:39.553 [main] INFO  Starting TC_06_usernameMandatory
+14:33:40.510 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:33:41.106 [main] INFO  TC_06 PASSED
+14:33:47.433 [main] INFO  Starting TC_01_verifyLoginPageLoads
+14:33:48.694 [main] INFO  Thread: main | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:58:42.790 [TestNG-test-LoginTestSuite-5] INFO  Starting TC_06_usernameMandatory
+14:58:42.790 [TestNG-test-LoginTestSuite-1] INFO  Starting TC_01_verifyLoginPageLoads
+14:58:42.790 [TestNG-test-LoginTestSuite-4] INFO  Starting TC_04_invalidPassword â€? {}
+14:58:42.871 [TestNG-test-LoginTestSuite-1] WARN  Retrying test: TC_01_verifyLoginPageLoads Attempt: 0
+14:58:43.314 [TestNG-test-LoginTestSuite-5] INFO  Thread: TestNG-test-LoginTestSuite-5 | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:58:43.925 [TestNG-test-LoginTestSuite-3] INFO  Starting TC_03_invalidUsername
+14:58:43.966 [TestNG-test-LoginTestSuite-4] INFO  Thread: TestNG-test-LoginTestSuite-4 | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:58:44.086 [TestNG-test-LoginTestSuite-2] INFO  Thread: TestNG-test-LoginTestSuite-2 | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:58:44.143 [TestNG-test-LoginTestSuite-5] INFO  TC_06 PASSED
+14:58:44.567 [TestNG-test-LoginTestSuite-4] INFO  TC_04 PASSED â€? {}
+14:58:44.910 [TestNG-test-LoginTestSuite-3] INFO  Thread: TestNG-test-LoginTestSuite-3 | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:58:45.538 [TestNG-test-LoginTestSuite-3] INFO  TC_03 PASSED 
+14:58:51.491 [TestNG-test-LoginTestSuite-3] INFO  Starting TC_01_verifyLoginPageLoads
+14:58:52.208 [TestNG-test-LoginTestSuite-3] INFO  Thread: TestNG-test-LoginTestSuite-3 | Clicking By.xpath: //button[contains(normalize-space(.), 'Sign In')]
+14:58:53.009 [TestNG-test-LoginTestSuite-1] INFO  Starting TC_01_verifyLoginPageLoads

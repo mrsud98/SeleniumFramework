@@ -1,0 +1,5 @@
+com\iasys\dataprovider\LoginDataProvider.class
+com\iasys\base\BaseTest.class
+com\iasys\dashboardTest\DashboardTest.class
+com\iasys\loginTest\LoginTest.class
+com\iasys\dvpRTest\CreateDVPTest.class

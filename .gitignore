@@ -1,0 +1,53 @@
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Environment files
+.env
+.env.*
+
+# Build directories
+build/
+dist/
+target/
+out/
+
+# Dependency directories
+node_modules/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+
+# Python
+__pycache__/
+*.pyc
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
